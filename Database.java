@@ -97,6 +97,7 @@ public class Database {
                     System.out.println("Invalid option. Please choose again.");
             }
         }
+        scanner.close();
     }
 
     private static String validateStringInput(Scanner scanner) {
