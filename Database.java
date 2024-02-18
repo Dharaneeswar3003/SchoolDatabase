@@ -129,7 +129,8 @@ public class Database {
         while (true) {
             input = scanner.nextInt();
             return input;
-        }
+        } else {
+            System.out.print("Invald input. Please enter an integer: ");
     }
     private static String validateSubjectInput(Scanner scanner) {
         String input;
